@@ -1,7 +1,9 @@
 h2. GeoInfo
+
 This is a quick hack of a NWS dataset for all US Cities into a Rails database migration and YAML files for populating the database. Once you migrate and populate your database with this, you have pretty much all of the United States Census defined cities, and their states. This is including Guam, Puerto Rico, American Samoa and the Mariana Islands. [1] 
 
 h2. Needs and Issues
+
 * Humanize: All names are in ALL CAPS, so you might want to use the humanize method when pulling from the database.
 * Gem or Fixture?: I'm not sure this is the best distribution method, it might be better as a gem, but since it's pretty database needy, I'm distributing it this way for now.
 * Fixes: Please send me a note if something's wrong or missing.
@@ -10,10 +12,14 @@ h2. Needs and Issues
 * Other countries: Perhaps starting with Mexico?
 
 h3. Source Notes
+
 I found the original dataset at the "NWS Geodata catalog":http://www.weather.gov/geodata/catalog/national/html/cities.htm and edited it slightly to remove records such as state name of "Montantna," etc.
 
 h2. Fork Me!!
+
 Please fork me and add to this as needed. Send me pull requests.
+
+h2. License
 
 h3. Copyright (c) 2010 John Metta
 
