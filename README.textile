@@ -2,6 +2,13 @@ h2. GeoInfo
 
 This is a quick hack of a NWS dataset for all US Cities into a Rails database migration and YAML files for populating the database. Once you migrate and populate your database with this, you have pretty much all of the United States Census defined cities, and their states. This is including Guam, Puerto Rico, American Samoa and the Mariana Islands. [1] 
 
+h2. Usage
+
+bc. script/plugin install git://github.com/mettadore/geoinfo.git
+rake db:migrate:geoinfo # <= Creates geoinfo_cities and geoinfo_states db tables
+
+I haven't added a rake task to populate the database yet. But the YAML files are in vendor/plugins/geoinfo/lib/db/*.yml
+
 h2. Needs and Issues
 
 * Humanize: All names are in ALL CAPS, so you might want to use the humanize method when pulling from the database.

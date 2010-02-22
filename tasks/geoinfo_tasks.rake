@@ -10,5 +10,9 @@ namespace :db do
       ActiveRecord::Migrator.migrate("vendor/plugins/geoinfo/lib/db/migrate/", ENV["VERSION"] ? ENV["VERSION"].to_i : nil)  
       Rake::Task["db:schema:dump"].invoke if ActiveRecord::Base.schema_format == :ruby  
     end  
-  end 
+  end
+  
+  namespace :fixtures do
+    desc "Load all data from vendor/plugins/geoinfo/lib/db/*.yml into tables"
+  end
 end 

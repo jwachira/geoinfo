@@ -1,4 +1,4 @@
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: STATE
     abbr: ABBR
@@ -6,7 +6,7 @@
     type: TYPE
     id: "ID"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ALASKA
     abbr: AK
@@ -14,7 +14,7 @@
     type: STATE
     id: "1"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ALABAMA
     abbr: AL
@@ -22,7 +22,7 @@
     type: STATE
     id: "2"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ARKANSAS
     abbr: AR
@@ -30,7 +30,7 @@
     type: STATE
     id: "3"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: AMERICAN SAMOA
     abbr: AS
@@ -38,7 +38,7 @@
     type: TERRITORY
     id: "4"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ARIZONA
     abbr: AZ
@@ -46,7 +46,7 @@
     type: STATE
     id: "5"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: CALIFORNIA
     abbr: CA
@@ -54,7 +54,7 @@
     type: STATE
     id: "6"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: COLORADO
     abbr: CO
@@ -62,7 +62,7 @@
     type: STATE
     id: "7"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: CONNECTICUT
     abbr: CT
@@ -70,7 +70,7 @@
     type: STATE
     id: "8"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: DISTRICT OF COLUMBIA
     abbr: DC
@@ -78,7 +78,7 @@
     type: STATE
     id: "9"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: DELAWARE
     abbr: DE
@@ -86,7 +86,7 @@
     type: STATE
     id: "10"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: FLORIDA
     abbr: FL
@@ -94,7 +94,7 @@
     type: STATE
     id: "11"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: GEORGIA
     abbr: GA
@@ -102,7 +102,7 @@
     type: STATE
     id: "12"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: GUAM
     abbr: GU
@@ -110,7 +110,7 @@
     type: TERRITORY
     id: "13"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: HAWAII
     abbr: HI
@@ -118,7 +118,7 @@
     type: STATE
     id: "14"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: IOWA
     abbr: IA
@@ -126,7 +126,7 @@
     type: STATE
     id: "15"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: IDAHO
     abbr: ID
@@ -134,7 +134,7 @@
     type: STATE
     id: "16"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ILLINOIS
     abbr: IL
@@ -142,7 +142,7 @@
     type: STATE
     id: "17"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: INDIANA
     abbr: IN
@@ -150,7 +150,7 @@
     type: STATE
     id: "18"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: KANSAS
     abbr: KS
@@ -158,7 +158,7 @@
     type: STATE
     id: "19"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: KENTUCKY
     abbr: KY
@@ -166,7 +166,7 @@
     type: STATE
     id: "20"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: LOUISIANA
     abbr: LA
@@ -174,7 +174,7 @@
     type: STATE
     id: "21"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MASSACHUSETTS
     abbr: MA
@@ -182,7 +182,7 @@
     type: STATE
     id: "22"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MARYLAND
     abbr: MD
@@ -190,7 +190,7 @@
     type: STATE
     id: "23"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MAINE
     abbr: ME
@@ -198,7 +198,7 @@
     type: STATE
     id: "24"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MICHIGAN
     abbr: MI
@@ -206,7 +206,7 @@
     type: STATE
     id: "25"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MINNESOTA
     abbr: MN
@@ -214,7 +214,7 @@
     type: STATE
     id: "26"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MISSOURI
     abbr: MO
@@ -222,7 +222,7 @@
     type: STATE
     id: "27"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MARIANA ISLANDS
     abbr: MP
@@ -230,7 +230,7 @@
     type: TERRITORY
     id: "28"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MISSISSIPPI
     abbr: MS
@@ -238,7 +238,7 @@
     type: STATE
     id: "29"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MONTANA
     abbr: MT
@@ -246,7 +246,7 @@
     type: STATE
     id: "30"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NORTH CAROLINA
     abbr: NC
@@ -254,7 +254,7 @@
     type: STATE
     id: "31"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NORTH DAKOTA
     abbr: ND
@@ -262,7 +262,7 @@
     type: STATE
     id: "32"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEBRASKA
     abbr: NE
@@ -270,7 +270,7 @@
     type: STATE
     id: "33"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEW HAMPSHIRE
     abbr: NH
@@ -278,7 +278,7 @@
     type: STATE
     id: "34"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEW JERSEY
     abbr: NJ
@@ -286,7 +286,7 @@
     type: STATE
     id: "35"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEW MEXICO
     abbr: NM
@@ -294,7 +294,7 @@
     type: STATE
     id: "36"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEVADA
     abbr: NV
@@ -302,7 +302,7 @@
     type: STATE
     id: "37"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEW YORK
     abbr: NY
@@ -310,7 +310,7 @@
     type: STATE
     id: "38"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: OHIO
     abbr: OH
@@ -318,7 +318,7 @@
     type: STATE
     id: "39"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: OKLAHOMA
     abbr: OK
@@ -326,7 +326,7 @@
     type: STATE
     id: "40"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: OREGON
     abbr: OR
@@ -334,7 +334,7 @@
     type: STATE
     id: "41"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: PENNSYLVANIA
     abbr: PA
@@ -342,7 +342,7 @@
     type: STATE
     id: "42"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: PUERTO RICO
     abbr: PR
@@ -350,7 +350,7 @@
     type: TERRITORY
     id: "43"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: RHODE ISLAND
     abbr: RI
@@ -358,7 +358,7 @@
     type: STATE
     id: "44"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: SOUTH CAROLINA
     abbr: SC
@@ -366,7 +366,7 @@
     type: STATE
     id: "45"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: SOUTH DAKOTA
     abbr: SD
@@ -374,7 +374,7 @@
     type: STATE
     id: "46"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: TENNESSE
     abbr: TN
@@ -382,7 +382,7 @@
     type: STATE
     id: "47"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: TEXAS
     abbr: TX
@@ -390,7 +390,7 @@
     type: STATE
     id: "48"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: UTAH
     abbr: UT
@@ -398,7 +398,7 @@
     type: STATE
     id: "49"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: VIRGINIA
     abbr: VA
@@ -406,7 +406,7 @@
     type: STATE
     id: "50"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: VIRGIN ISLANDS
     abbr: VI
@@ -414,7 +414,7 @@
     type: TERRITORY
     id: "51"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: VERMONT
     abbr: VT
@@ -422,7 +422,7 @@
     type: STATE
     id: "52"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: WASHINGTON
     abbr: WA
@@ -430,7 +430,7 @@
     type: STATE
     id: "53"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: WISCONSIN
     abbr: WI
@@ -438,7 +438,7 @@
     type: STATE
     id: "54"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: WEST VIRGINIA
     abbr: WV
@@ -446,7 +446,7 @@
     type: STATE
     id: "55"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: WYOMING
     abbr: WY
@@ -454,7 +454,7 @@
     type: STATE
     id: "56"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ONTARIO
     abbr: ON
@@ -462,7 +462,7 @@
     type: PROVINCE
     id: "57"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: QUEBEC
     abbr: QC
@@ -470,7 +470,7 @@
     type: PROVINCE
     id: "58"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NOVA SCOTIA
     abbr: NS
@@ -478,7 +478,7 @@
     type: PROVINCE
     id: "59"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEW BRUNSWICK
     abbr: NB
@@ -486,7 +486,7 @@
     type: PROVINCE
     id: "60"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: MANITOBA
     abbr: MB
@@ -494,7 +494,7 @@
     type: PROVINCE
     id: "61"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: BRITISH COLUMBIA
     abbr: BC
@@ -502,7 +502,7 @@
     type: PROVINCE
     id: "62"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: PRINCE EDWARD ISLAND
     abbr: PE
@@ -510,7 +510,7 @@
     type: PROVINCE
     id: "63"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: SASKATCHEWAN
     abbr: SK
@@ -518,7 +518,7 @@
     type: PROVINCE
     id: "64"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: ALBERTA
     abbr: AB
@@ -526,7 +526,7 @@
     type: PROVINCE
     id: "65"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NEWFOUNDLAND AND LABRADOR
     abbr: NL
@@ -534,7 +534,7 @@
     type: PROVINCE
     id: "66"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NORTHWEST TERRITORIES
     abbr: NT
@@ -542,7 +542,7 @@
     type: TERRITORY
     id: "67"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: YUKON
     abbr: YT
@@ -550,7 +550,7 @@
     type: TERRITORY
     id: "68"
     
-- !ruby/object:State
+- !ruby/object:GeoinfoState
   attributes:
     name: NUNAVUT
     abbr: NU
