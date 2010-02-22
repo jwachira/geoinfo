@@ -9,10 +9,19 @@ rake db:migrate:geoinfo # <= Creates geoinfo_cities and geoinfo_states db tables
 
 I haven't added a rake task to populate the database yet. But the YAML files are in vendor/plugins/geoinfo/lib/db/*.yml
 
+h3. Usage, non-plugin style
+
+The relevant files are all located in lib/db. Within this file there are two YAML files containing the data for cities and states. There is also a lib/db/migrate folder with the migration files. If you don't want all the plugin infrastructure and just want to get to the data, just grab the lib/db folder.
+
+h3. Naming scheme
+
+I've created this plugin with a certain naming scheme. The database tables are geoinfo_states and geoinfo_cities; likewise the models are GeoinfoState and GeoinfoCity. This is just to prevent name collision with someone else's project.
+
 h2. Needs and Issues
 
 * Humanize: All names are in ALL CAPS, so you might want to use the humanize method when pulling from the database.
 * Gem or Fixture?: I'm not sure this is the best distribution method, it might be better as a gem, but since it's pretty database needy, I'm distributing it this way for now.
+* Naming scheme: Perhaps it might be best to have a rake task that allows the user to choose a naming scheme, defaulting to "State" and "City."
 * Fixes: Please send me a note if something's wrong or missing.
 * Canada: I've included the provinces and territories of Canada, but don't have a database of city names- that would be nice
 * Postal Codes: I'd like to include the postal codes for each city, but don't have that database available to parse either.
