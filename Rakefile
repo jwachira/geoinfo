@@ -18,6 +18,34 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title    = 'Geoinfo'
   rdoc.options << '--line-numbers' << '--inline-source'
-  rdoc.rdoc_files.include('README')
+  rdoc.rdoc_files.include('README.textile')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+PKG_FILES = FileList[ 
+  '[a-zA-Z]*', 
+  'generators/**/*', 
+  'lib/**/*', 
+  'rails/**/*', 
+  'tasks/**/*', 
+  'test/**/*' 
+] 
+  
+spec = Gem::Specification.new do |s| 
+  s.name = "geoinfo"  
+  s.version = "0.0.1"  
+  s.author = "John Metta"  
+  s.email = "john@mettadore.com"  
+  s.homepage = "http://mettadore.com/"  
+  s.platform = Gem::Platform::RUBY 
+  s.summary = "City and State database"  
+  s.files = PKG_FILES.to_a 
+  s.require_path = "lib"  
+  s.has_rdoc = false 
+  s.extra_rdoc_files = ["README.textile"] 
+end 
+
+#desc 'Turn this plugin into a gem.' 
+#Rake::GemPackageTask.new(spec) do |pkg| 
+#  pkg.gem_spec = spec 
+#end 
